@@ -48,5 +48,6 @@ elif [ "$action" == "Delete" ]; then
     echo "| Done."
 else
     echo "error: unrecognized action: $action"
+    echo "hiiiiiiii"
     exit 1
 fi
